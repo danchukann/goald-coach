@@ -1,0 +1,264 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+	.description h5{
+		text-align: center;
+	}
+	.block .description {
+		min-height: 1140px;
+	}
+	.block .speaker {
+		min-height: 1000px;
+		margin-top: -40px;
+	}
+	.speaker .time{
+		margin-top: 40px;
+		margin-left: 33px;
+	}
+	/*.speaker .date{
+		margin-left: 150px;
+	}*/
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.block .description {
+		min-height: 1250px;
+	}
+	.block .speaker {
+		min-height: 1050px;
+		margin-top: -40px;
+	}
+	.text p:last-child{
+		margin-bottom: 20px;
+	}
+	.collage{
+		margin-top: 0;
+	}
+	footer button{
+		font-size: 32px;
+	}
+}
+@media only screen and (max-width : 736px) {
+	.block .description {
+		min-height: 1300px;
+	}
+	.block .speaker {
+		min-height: 1100px;
+		
+	}
+	footer button{
+		font-size: 26px;
+		padding: 27px 70px 27px 70px;
+	}
+}
+@media only screen and (max-width : 640px) {
+	.block .description {
+		min-height: 1300px;
+	}
+	.block .speaker {
+		min-height: 1120px;
+	}
+	/*.speaker .time{
+		margin-top: 38px;
+		margin-left: 33px;
+	}*/
+		
+}
+@media only screen and (max-width : 568px) {
+	.block .description {
+		min-height: 1400px;
+	}
+	.block .speaker {
+		min-height: 1200px;
+		
+	}
+	footer button{
+		font-size: 24px;
+		padding: 27px 70px 27px 70px;
+	}
+	/*.speaker .time{
+		width: 100px;
+		margin-left: 250px;
+	}*/
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 425px) {
+	header button{
+		font-size: 28px;
+		padding: 22px 20px 22px 40px;
+	}
+	header h1{
+		font-size: 26px;
+	}
+	.speaker .time{
+		width: 150px;
+	}
+	.block .description {
+		min-height: 1800px;
+	}
+	.block .speaker {
+		min-height: 1350px;
+	}
+	.speaker .date{
+		margin-left: 30px;
+	}
+	.text h4{
+		font-size: 30px;
+	}
+	.text p{
+		font-size: 20px;
+	}
+	.collage{
+		min-height: 375px;
+	}
+	.collage .block-images{
+		max-width: 399px;
+		height: 352px;
+	}
+	.collage .img5{
+		height: 27%;
+	}
+	.collage .img29{
+		height: 35%;
+	}
+	.collage .img27{
+		height: 35%;
+	}
+	.collage .img12{
+		height: 34%;
+	}
+	.collage .img6{
+		height: 34%;
+	}
+
+	.collage .img20{
+		height: 30%;
+		top: 27%;
+	}
+	.collage .img33{
+		height: 34%;
+		top: 34%;
+	}
+	.collage .img24{
+		height: 34%;
+		top: 34%;
+	}
+	.collage .img14{
+		height: 35%;
+		top: 33%;
+	}
+	.collage .img15{
+		height: 35%;
+		top: 33%;
+	}
+	.collage .img9{
+		height: 39%;
+		top: 33%;
+	}
+
+	.collage .img7{
+		height: 44%;
+		top: 56%;
+	}
+	.collage .img10{
+		height: 44%;
+		top: 56%;
+	}
+	.collage .img8{
+		height: 32%;
+		top: 68%;
+	}
+	.collage .img13{
+		height: 32%;
+		top: 68%;
+	}
+	.collage .img11{
+		height: 32%;
+		top: 68%;
+	}
+	footer button{
+		font-size: 30px;
+		padding: 27px 30px 27px 30px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+	header h1{
+		font-size: 26px;
+	}
+	header button{
+		font-size: 24px;
+	}
+	.speaker .time{
+		width: 150px;
+	}
+	.description h6 {
+		font-size: 20px;
+	}
+	.block .description {
+		min-height: 2000px;
+	}
+	.block .speaker {
+		min-height: 1350px;
+	}
+	.format span{
+		padding: 5px 10px;
+	}
+		
+}
+@media only screen and (max-width : 360px) {
+	header h1{
+		font-size: 22px;
+	}
+}
+@media only screen and (max-width : 320px) {
+	header h1{
+		font-size: 20px;
+	}
+	header button{
+		font-size: 20px;
+	}
+	.block .description{
+		min-height: 1900px;
+	}
+	.block .speaker {
+		min-height: 1250px;
+	}
+	.speaker .time{
+		width: 120px;
+	}
+	.description h6{
+		margin-top: 20px;
+	}
+	.description .start-item span{
+		font-size: 36px;
+		margin-left: 3px;
+		margin-right: 2px;
+	}
+	.description .webinar li{
+		font-size: 20px;
+	}
+	.about ul li{
+		font-size: 16px;
+	}
+	.text h4{
+		font-size: 26px;
+	}
+	.format h5{
+		font-size: 32px;
+	}
+	footer button{
+		font-size: 26px;
+	}
+	footer p{
+		font-size: 32px;
+	}
+}
